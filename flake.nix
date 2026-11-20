@@ -49,6 +49,7 @@
                   exit 1
                 fi
 
+                # shellcheck disable=SC1090
                 source "$hook"
               done
 
